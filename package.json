@@ -1,0 +1,21 @@
+{
+  "name": "node-circleci-docker",
+  "version": "1.0.0",
+  "author": "Pietro",
+  "license": "MIT",
+  "description": "Example of a node app with circleci",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
