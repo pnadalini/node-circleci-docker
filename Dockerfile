@@ -2,7 +2,7 @@ FROM node
 ENV NPM_CONFIG_LOGLEVEL warn
 
 RUN mkdir -p /usr/src/app
-EXPOSE 3000
+EXPOSE 80
 
 WORKDIR /usr/src/app
 ADD package.json /usr/src/app/
